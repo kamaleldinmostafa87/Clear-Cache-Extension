@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Local and Session Storage",
+  "version": "1.0",
+  "description": "A Chrome extension to clear local and session storage when the extension button is clicked.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "clear-cache.png",
+      "48": "clear-cache.png",
+      "128": "clear-cache.png"
+    }
+  }
+}
